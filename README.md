@@ -1,7 +1,7 @@
 # Orleans Divisional Leaderboard
 
 This is a sample implementation of a divisional leaderboard implementation usually used in games. In this sample we can have many divisions of different division level with a relation to each other. The Number of players that can get promoted and demoted in one division level is always equal. On promotion and demotion players will get distributed to a random new league in their appropriate Division Level.
-
+```
                     +---------------+
                     |               |
                     |  Leaderboard  +------+
@@ -20,7 +20,7 @@ This is a sample implementation of a divisional leaderboard implementation usual
   Division Level 2  |  Leaderboard  +---------+
                     |       1       |
                     +---------------+
-
+```
 
 ## Features
 
