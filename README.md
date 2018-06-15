@@ -1,32 +1,47 @@
-# Project Name
+# Orleans Divisional Leaderboard
 
-(short, 1-3 sentenced, description of the project)
+This is a sample implementation of a divisional leaderboard implementation usually used in games. In this sample we can have many divisions of different division level with a relation to each other. The Number of players that can get promoted and demoted in one division level is always equal. On promotion and demotion players will get distributed to a random new league in their appropriate Division Level.
+
+                    +---------------+
+                    |               |
+                    |  Leaderboard  +------+
+  Division Level 1  |       1       |      |
+                    +-----+---+-----+      +-------+
+                          |   |       2    |       |
+                          |   +----+---+---+       |
+                          |        |   |     N     |
+                          |        |   +------+----+
+                          |        |          |
+                          |        |          |
++-----------------------------------------------------+
+                          |        |          |
+                    +-----+--------++         |
+                    |               |         |
+  Division Level 2  |  Leaderboard  +---------+
+                    |       1       |
+                    +---------------+
+
 
 ## Features
 
-This project framework provides the following features:
+This sample shows the following:
 
-* Feature 1
-* Feature 2
-* ...
+* Adding new players to leaderboards
+* Promotion / Demotion of players
+* Get realtime position of player in leaderboard
+* Get specific leaderboard in specific division
 
 ## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
+- Windows / Linux / Mac
+- .NET Core 2.0 /.NET Standard 2.0
+- Orleans 2.0.3
 
 ### Installation
 
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
+//TODO
 
 ### Quickstart
 (Add steps to get up and running quickly)
@@ -35,23 +50,8 @@ This project framework provides the following features:
 2. cd [respository name]
 3. ...
 
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
 ## Resources
 
 (Any additional resources or related projects)
 
-- Link to supporting information
-- Link to similar sample
-- ...
+- [Orleans](https://dotnet.github.io/orleans/)
